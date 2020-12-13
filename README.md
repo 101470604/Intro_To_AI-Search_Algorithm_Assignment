@@ -23,17 +23,17 @@ Any deviatons from this format will return an error.
 ## HOW TO USE
 
 1. Open the command line in windows & navigate to installation directory 
-2. Run with the following command: ./search <grid_file.txt> <method>
+2. Run with the following command: ./search <grid_file.txt> <method> </br>
 
 <grid_file.txt> = the txt file specifying the layout of the grid. Must fit previously stated format. 
 <method> = the name of the search algorithm to be used. 
 
-The following are a list of valid method name inputs & their full name:
-BFS - Breadth first search 
-DFS - Depth first search 
-GBFS - Greedy best first search 
-A* - A Star search 
-BS - Beam Search
+The following are a list of valid method name inputs & their full name: </br>
+BFS - Breadth first search </br>
+DFS - Depth first search </br>
+GBFS - Greedy best first search </br>
+A* - A Star search </br>
+BS - Beam Search</br>
 
 FOR EXAMPLE: C:\Assignment_1 ./search grid.txt BFS
 
