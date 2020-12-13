@@ -23,7 +23,7 @@ Any deviatons from this format will return an error.
 ## HOW TO USE
 
 1. Open the command line in windows & navigate to installation directory 
-2. Run with the following command: ./search <grid_file.txt> <method> </br>
+2. Run with the following command: ./search < grid_file.txt > < method > </br>
 
 <grid_file.txt> = the txt file specifying the layout of the grid. Must fit previously stated format. 
 <method> = the name of the search algorithm to be used. 
