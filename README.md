@@ -10,12 +10,12 @@ to determine a series of steps that will lead to an goal coordinate.
 To run this program you will need a PC with software for running bash scripts installed
 and a .txt file in the following format:
 
-[grid_width, grid_height]
-[(starting_x, starting_y)
-(goal_1_x, goal_1_y) | (goal_2_x, goal_2_y) 
-(wall_1_x, wall_1_y, wall_1_width, wall_1_height)
-(wall_2_x, wall_2_y, wall_2_width, wall_2_height)
-(wall_3_x, wall_3_y, wall_3_width, wall_3_height)
+[grid_width, grid_height] </br>
+[(starting_x, starting_y) </br>
+(goal_1_x, goal_1_y) | (goal_2_x, goal_2_y) </br>
+(wall_1_x, wall_1_y, wall_1_width, wall_1_height) </br>
+(wall_2_x, wall_2_y, wall_2_width, wall_2_height) </br>
+(wall_3_x, wall_3_y, wall_3_width, wall_3_height) </br>
 
 Each variable placeholder must be replaced with 1 whole integer, NO DOUBLES
 Any deviatons from this format will return an error. 
